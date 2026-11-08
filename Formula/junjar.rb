@@ -5,16 +5,13 @@ class Junjar < Formula
   version "0.2.4"
 
   on_macos do
+    # No Intel macOS build; Intel Macs build from source.
+    depends_on arch: :arm64
+
     on_arm do
       # aarch64-apple-darwin
       url "https://github.com/2commits/junjar/releases/download/v0.2.4/junjar-v0.2.4-aarch64-apple-darwin.tar.gz"
       sha256 "7cef059f95cd7376d71674656fcf7cfb7ca38f7116ff18cf98bd1191bc934262"
-    end
-
-    on_intel do
-      # x86_64-apple-darwin
-      url "https://github.com/2commits/junjar/releases/download/v0.2.4/junjar-v0.2.4-x86_64-apple-darwin.tar.gz"
-      sha256 "9b128b3a261a606b586810de86f475382a0ad15781d86be1b7ea6f8ba3bffa3b"
     end
   end
 
