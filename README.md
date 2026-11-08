@@ -1,11 +1,11 @@
-# nordalf/homebrew-tap
+# 2commits/homebrew-tap
 
-Homebrew tap for [Junjar](https://github.com/nordalf/junjar) — a CI/CD-style orchestration platform for AI agents.
+Homebrew tap for [Junjar](https://github.com/2commits/junjar) — a CI/CD-style orchestration platform for AI agents.
 
 ## Install
 
 ```sh
-brew tap nordalf/tap
+brew tap 2commits/tap
 brew install junjar
 ```
 
