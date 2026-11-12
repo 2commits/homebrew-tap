@@ -2,7 +2,6 @@ class Junjar < Formula
   desc "CI/CD-style orchestration platform for AI agents"
   homepage "https://github.com/2commits/junjar"
   license "BUSL-1.1"
-  version "0.3.1"
 
   on_macos do
     # No Intel macOS build; Intel Macs build from source.
