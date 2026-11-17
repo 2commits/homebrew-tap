@@ -17,8 +17,8 @@ class Junjar < Formula
   on_linux do
     on_intel do
       # x86_64-unknown-linux-gnu
-      url "https://github.com/2commits/junjar/releases/download/v0.6.0/junjar-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7f9121f246db0acb1e95b32394e3dba4aa6a2f102e31a6f70b1bf9c8e1adfbb7"
+      url "https://github.com/2commits/junjar/releases/download/v0.6.1/junjar-v0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ddec064818110f9e202a7683d8c5d5d6318ef7c5389108ef6fe8443a6af6c5ca"
     end
   end
 
